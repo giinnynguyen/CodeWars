@@ -6,6 +6,5 @@ import re
 # check exact length (5 char): ^[a-z]{5}$
 # check limit length (3-7 char): ^[a-z]{3,7}$
 # check min length (minimum 3 char): ^[a-z]{3,}$
-# check max length (max 7 char): ^[a-z]{,7}$
 def validate_usr(username):
     return bool(re.search("^[a-z0-9_]{4,16}$", username))
