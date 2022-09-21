@@ -2,7 +2,6 @@
 import re
 
 # d+: match one or more digit
-import re
 def string_clean(s):
     s = re.sub("\d+", "", s)
     return s
