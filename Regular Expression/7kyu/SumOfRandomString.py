@@ -1,8 +1,6 @@
-#### Problem
-https://www.codewars.com/kata/55da6c52a94744b379000036
+# https://www.codewars.com/kata/55da6c52a94744b379000036
+# sum all number in string
 
-#### First Solution (python)
-```python
 import re
 
 def sum_from_string(strng):
@@ -12,4 +10,3 @@ def sum_from_string(strng):
     for num in numbers:
         sum += int(num)
     return sum
-```
