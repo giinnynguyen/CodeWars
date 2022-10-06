@@ -2,6 +2,7 @@
 from preloaded import FILTERS
 import re
 
+# First Solution
 def is_valid(query: str) -> bool:
     temp = re.findall("[a-zA-Z0-9]+:[a-zA-Z0-9]+", query)
     for x in temp:
