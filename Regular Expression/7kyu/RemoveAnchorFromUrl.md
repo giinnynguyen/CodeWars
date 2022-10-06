@@ -6,7 +6,7 @@ Example: <br>
 "www.codewars.com#about" --> "www.codewars.com"<br>
 "www.codewars.com?page=1" -->"www.codewars.com?page=1"<br>
 
-### Solution (python)
+### First Solution (python)
 ```python
 def remove_url_anchor(url):
     temp =  url.split("#")
