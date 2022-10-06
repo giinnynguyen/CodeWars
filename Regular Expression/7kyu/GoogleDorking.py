@@ -1,8 +1,4 @@
-#### Problem: Google Dorking - Validating Queries
-https://www.codewars.com/kata/62cb487e43b37a5829ab5752
-
-#### First Solution (python)
-```python
+# https://www.codewars.com/kata/62cb487e43b37a5829ab5752
 from preloaded import FILTERS
 import re
 
@@ -13,4 +9,3 @@ def is_valid(query: str) -> bool:
         if filterName not in FILTERS:
             return False
     return True
-```
