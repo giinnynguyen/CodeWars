@@ -1,6 +1,8 @@
 // https://www.codewars.com/kata/5637b03c6be7e01d99000046
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+
+// \b\w: extract first character from a word
 public class PasswordMaker {
    public static String makePassword(String phrase){
       String password = "";
