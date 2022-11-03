@@ -2,7 +2,7 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-/* \b\w: extract first character from a word */
+/* Regex \b\w: extract first character from a word */
 public class PasswordMaker {
    public static String makePassword(String phrase){
       String password = "";
