@@ -1,4 +1,5 @@
 # https://www.codewars.com/kata/62cb487e43b37a5829ab5752
+# filter if an url have format: <filter>:<value>
 from preloaded import FILTERS
 import re
 
