@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
 function int32ToIp(int32){
      return getBit(int32, 24, 32) + "." + getBit(int32, 16, 24) + "." + getBit(int32, 8, 16) + "." + getBit(int32, 0, 8);
 }
